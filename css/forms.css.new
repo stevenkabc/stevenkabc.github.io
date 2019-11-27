@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/galaxy.jpg);
+
+}
+
+.wrapper {
+    background-color: #EEB02B;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+fieldset {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+legend {
+    padding: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+input {
+    border: 3px solid red;
+    vertical-align: middle;
+    margin-top: .5rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: block;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    font-size: 2rem;
+
+}
+
+select {
+    font-size: 1.5rem;
+    display: block;
+    margin-top: .5rem;
+}
+
+option {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+}
+
+textarea {
+    display: inline-block;
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+section {
+    flex-basis: 57%;
+    margin-right: 10%;
+}
+
+aside {
+    flex-basis: 33%;
+}
